@@ -1,0 +1,218 @@
+.swiper{
+    width: 100%;
+    height: 90.4vh;
+}
+
+.mantine-Header-root{
+    position: fixed;
+}
+
+.navbar{
+    height: 9.5vh;
+}
+.mantine-d9zk78{
+    margin: 0;
+    max-width: 100%;
+}
+
+.slide1{
+    background-image: url("./assets/banner1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+}
+
+.swiper-slide{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide_content{
+    text-align: center;
+    background-color: rgb(255, 255 , 255 , 0.8);
+    padding: 25px;
+    width: 50%;
+
+}
+
+.slide_content h1{
+    font-size: 45px;
+    margin: 15px;
+    letter-spacing: 2px;
+}
+
+.slide_content p{
+    font-size: 18px;
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.5px;
+}
+
+.read_more{
+    background-color: var(--theme-color);
+    border: none;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    min-width:25%;
+    cursor: pointer;
+    height: 35px;
+}
+.slide2{
+    background-image: url("./assets/sustain.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+
+    
+}
+
+.slide1 p{
+    opacity: 1 ;
+}
+.swiper-pagination-bullet-active{
+    background-color: var(--theme-color) !important;
+}
+
+.product_img{
+    width: 100%;
+    border-radius: 5%;
+    cursor: pointer;
+
+}
+
+.mantine-zxd6ka{
+    color: var(--theme-color);
+}
+
+.product_img:hover{
+    transform: scale(1.06);
+    overflow: hidden;
+}
+.bg_background{
+    background-image: url("https://steel-factory.ancorathemes.com/wp-content/uploads/2017/02/parallax-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.content h1{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin: 40px;
+}
+
+.content p{
+    margin: auto;
+    width: 65%;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.footer_links{
+    height: 40vh;
+}
+
+
+.about_wrapper{
+    margin-top: 50px;
+    height: 100%;
+
+}
+
+.about_heading h1{
+    margin: 0;
+    text-align: center;    
+    color: #b3b8ba;
+    letter-spacing: 2px;
+}
+
+.about_heading p{
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    letter-spacing: 1px;
+    /* color: var(--theme-color); */
+}
+.aboutus_bg_content{
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+}
+.about-bg-diagonal{
+    width: 30%;
+    float: left;
+    background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/09/dubai-building-view-from-the-top-view-city-lights-4k_1538066818.jpg.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position : right;
+    background-attachment: fixed;
+    border-right: 200px solid white;
+    border-top: 80vh solid transparent;
+  
+  }
+
+.about_content{
+    width: 45%;
+    padding: 10px;
+}
+
+.about_content p{
+    line-height: 25px;
+
+}
+
+.about_content p a{
+    color: var(--theme-color);
+}
+  
+
+
+@media screen and (max-width: 800px){
+
+    .mantine-1y24fz2{
+        width: 23%;
+    }
+    .slide_content{
+        width: 100%;
+    }
+
+    .aboutus_bg_content{
+        flex-direction: column;
+    }
+
+    .about-bg-diagonal{
+        border-right: solid;
+        width: 100%;
+        height: 50%;
+    }
+    .about_content{
+        width: 100%;
+    }
+    .bg_background {
+        height: 100vh;
+    }
+    .content h1{
+        margin: 10px;
+        font-size: 40px;
+    }
+
+    .content p{
+        margin-top: 25px;
+        width: 100%;
+    }
+}
