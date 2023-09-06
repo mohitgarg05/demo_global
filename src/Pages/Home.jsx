@@ -1,7 +1,8 @@
 import HeaderMenu from "./Navbar";
 import Swiper from 'swiper/bundle';
 import { useEffect } from "react";
-import "../app.css";
+import "../App.css";
+
 import 'swiper/css/bundle';
 import FeaturesGrid from "../Components/Service";
 import FooterLinks from "./Footer";
