@@ -55,10 +55,6 @@ const links = [
       label: 'Home',
     },
     {
-      link: '#about',
-      label: 'About Us',
-    },
-    {
       link: '/profile',
       label: 'Profile',
     },
@@ -120,14 +116,9 @@ export default function HeaderMenu() {
     }
 
     return (
-      <a
-        key={link.label}
-        href={link.link}
-        className={classes.link}
-        onClick={(event) => event.preventDefault()}
-      >
-        {link.label}
-      </a>
+      <a href={link.link} className={classes.link}>
+  {link.label}
+</a>
     );
   });
 

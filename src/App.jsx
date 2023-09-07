@@ -1,5 +1,7 @@
 import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home";
+import Certificates2 from "./Components/Certificates2";
+import ContactUs from "./Pages/ContactUs";
 
 
 
@@ -9,6 +11,14 @@ function App() {
     {
       path: "/",
       element: <Home />,
+    },
+    {
+      path: "/certificates",
+      element: <Certificates2 />,
+    },
+    {
+      path: "/contactus",
+      element: <ContactUs />,
     },
     
   ]);

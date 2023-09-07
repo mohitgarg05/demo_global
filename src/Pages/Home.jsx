@@ -87,10 +87,13 @@ function Home(){
             </section>
             <section className="certificates">
                 <Certificates />
+                <div className="certificate_readmore">
+                    <button className="read_more"><a href="/certificates">Read More</a></button>
+                </div>
             </section>
-            <section className="certificates">
+            {/* <section className="certificates">
                 <Certificates2 />
-            </section>
+            </section> */}
             <section className="section3">
                 <div className="bg_background">
                     <div className=" content">
