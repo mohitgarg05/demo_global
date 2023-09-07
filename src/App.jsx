@@ -17,7 +17,7 @@ function App() {
       element: <Certificates2 />,
     },
     {
-      path: "/contactus",
+      path: "/contact-form",
       element: <ContactUs />,
     },
     

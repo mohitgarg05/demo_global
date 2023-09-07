@@ -81,7 +81,7 @@ const links = [
       label: 'Certificates',
     },
     {
-      link: '/contactus',
+      link: '/contact-form',
       label: 'Contact Us',
     },
   ];
