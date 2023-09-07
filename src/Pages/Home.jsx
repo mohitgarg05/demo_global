@@ -7,6 +7,8 @@ import 'swiper/css/bundle';
 import FeaturesGrid from "../Components/Service";
 import FooterLinks from "./Footer";
 import AboutUs from "../Components/AboutUs";
+import Certificates from "../Components/Certificates";
+import Certificates2 from "../Components/Certificates2";
 
 
 
@@ -82,6 +84,12 @@ function Home(){
             </section>
             <section id="about">
                 <AboutUs />
+            </section>
+            <section className="certificates">
+                <Certificates />
+            </section>
+            <section className="certificates">
+                <Certificates2 />
             </section>
             <section className="section3">
                 <div className="bg_background">

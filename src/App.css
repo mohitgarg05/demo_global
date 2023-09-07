@@ -182,6 +182,98 @@
   
 
 
+/* Certificates */
+
+.certificates{
+    height: 85vh;
+    margin-top: 50px;
+}
+
+.certificate_heading{
+    height: 100%;
+}
+
+.certificate_heading h1{
+    font-size: 35px;
+    margin: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.certificate_heading h3{
+    font-size: 20px;
+    text-align: center;
+}
+.marquee-container {
+    height: 100%;
+    overflow: hidden;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+  .marquee2 {
+    animation-delay: 15s;
+  }
+  .marquee-container b {
+    padding-left: 10px;
+  }
+
+  .marquee {
+    top: 0;
+    left: 100%;
+    width: 110%;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+  }
+  .position-relative {
+    position: relative;
+}
+
+.marquee-container {
+    display: none; /* Hidden by default */
+}
+
+@media (min-width: 576px) {
+    .d-sm-block {
+        display: block;
+    }
+}
+
+.marquee {
+    display: flex;
+    justify-content: center;
+
+    gap: 70px;
+}
+.marquee .p_img{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.marquee .p_img p{
+    padding: 10px;
+    text-align: center;
+}
+
+.marquee img {
+    display: inline-block;
+    width: 250px;
+    /* margin-right: 80px; */
+}
+
+    
+  @keyframes marquee {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%
+    }
+  }
+
+
 @media screen and (max-width: 800px){
 
     .mantine-1y24fz2{
