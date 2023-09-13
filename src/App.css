@@ -338,7 +338,28 @@
 .mail_info p{
     font-size: 12px;
 }
+.tax_container{
+    margin-top: 15vh;
+}
 
+.tax_heading h1{
+    text-align: center;
+}
+
+.tax_content{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.tax_content p{
+    font-weight: 400;
+}
+
+.tax_content h3{
+    font-weight: 600;
+}
 @media screen and (max-width: 800px){
 
     .mantine-1y24fz2{
@@ -373,3 +394,4 @@
         width: 100%;
     }
 }
+

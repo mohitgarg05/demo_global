@@ -16,7 +16,7 @@ function AboutUs(){
                 <p>
                     Our sister company <a href="http://www.ardourworld.com/" target="_blank">Ardour World Limited</a> is the leading trading house in Non Ferrous Metal Scrap products.
                     <br/><br/>
-                    Find out more about our <a>Tax Strategy</a> and <a>Modern Slavery Statement</a>.</p>
+                    Find out more about our <a href="/copy-of-profile">Tax Strategy</a> and <a>Modern Slavery Statement</a>.</p>
                 </div>
             </div>
         </div>

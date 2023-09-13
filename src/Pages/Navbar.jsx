@@ -13,7 +13,7 @@ const useStyles = createStyles((theme) => ({
 
   image:{
     padding : "2px",
-    width :"9.5%"
+    width :"8%"
   },
 
   links: {
